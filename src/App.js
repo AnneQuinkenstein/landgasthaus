@@ -48,12 +48,26 @@ function App() {
             Personen möglich. Sehr gerne bieten wir in Absprache mit Ihnen auch
             ein Menüfolge an.
           </p>
+          <div>
+            <h4>Öffnungszeiten der Küche:</h4>
+            <p>
+              {" "}
+              Donnerstag bis Samstag von 17:00 Uhr bis 20:00 Uhr
+              <br />
+              Sonntag von 11:30 Uhr bis 14:00 Uhr und von 17:00 Uhr bis 20:00
+              Uhr
+            </p>
+            <p>
+              Das Gasthaus ist jeweils bis 23:00 Uhr geöffnet
+              <br /> Montag bis Mittwoch Ruhetag{" "}
+            </p>
+          </div>
         </div>
         <div className="box2">
           <div>
             <div className="imgContainer">
               <img
-                src={process.env.PUBLIC_URL + "/img/FB_IMG_Benediktiner.jpg"}
+                src={process.env.PUBLIC_URL + "/img/FB_IMG_Schieferland.jpg"}
                 alt="Schild"
               />
             </div>
@@ -73,7 +87,7 @@ function App() {
             </div>
             <div className="imgContainer">
               <img
-                src={process.env.PUBLIC_URL + "/img/FB_IMG_Schieferland.jpg"}
+                src={process.env.PUBLIC_URL + "/img/Kuchen.png"}
                 alt="Schild"
               />
             </div>
@@ -87,10 +101,10 @@ function App() {
           <div
             style={{
               position: "absolute",
-              width: "100px",
-              height: "100px",
+              width: "7vh",
+              height: "7vh",
               borderRadius: "50%",
-              background: `rgba(255, 123, 23, ${precentage * 1})`,
+              background: `rgba(221, 193, 33, ${precentage * 1})`,
               left: "50%",
               top: "50%",
               transform: `translate(-50%, -50%) scale(${precentage * 5})`,
@@ -108,6 +122,14 @@ function App() {
         </div>
       </Parallax>
       <div className="inbetween">
+      <div className="contact">
+        <h4>Kontakt: </h4>
+        <p>
+          {" "}
+          Gasthaus Reichert <br /> Hauptstr. 4 <br /> Eulgem{" "}
+        </p>
+        <p> Tel: 02653 7864</p>
+      </div>
         <div className="box2">
           <div>
             <div className="imgContainer">
@@ -132,7 +154,7 @@ function App() {
             </div>
             <div className="imgContainer">
               <img
-                src={process.env.PUBLIC_URL + "/img/Kuchen.png"}
+                src={process.env.PUBLIC_URL + "/img/FB_IMG_Benediktiner.jpg"}
                 alt="Schild"
               />
             </div>
@@ -161,29 +183,6 @@ function App() {
           <div style={inlineStyle}></div>
         </div>
       </Parallax>
-      <div className="footer">
-        <div className="contact">
-          <h4>Kontakt: </h4>
-          <p>
-            {" "}
-            Gasthaus Reichert <br /> Hauptstr. 4 <br /> Eulgem{" "}
-          </p>
-          <p> Tel: 02653 7864</p>
-        </div>
-        <div>
-          <h4>Öffnungszeiten der Küche:</h4>
-          <p>
-            {" "}
-            Donnerstag bis Samstag von 17:00 Uhr bis 20:00 Uhr
-            <br />
-            Sonntag von 11:30 Uhr bis 14:00 Uhr und von 17:00 Uhr bis 20:00 Uhr
-          </p>
-          <p>
-            Das Gasthaus ist jeweils bis 23:00 Uhr geöffnet
-            <br /> Montag bis Mittwoch Ruhetag{" "}
-          </p>
-        </div>
-      </div>
     </div>
   );
 }
