@@ -14,21 +14,20 @@ const inlineStyle = {
 function App() {
   return (
     <div className="App">
-      <nav>
-        <h1>Herzlich Willkommen in unserem Landgasthaus Reichert in Eulgem.</h1>
-      </nav>
       <Parallax
         bgImage={process.env.PUBLIC_URL + "/img/pflanzen2.png"}
         strength={-200}
       >
-        <div style={{ height: 800 }}>
+        <div style={{ height: "100vh" }}>
         <div style={inlineStyle}>
             {" "}
+            <h1>Herzlich Willkommen in unserem</h1>
             <img
               src={process.env.PUBLIC_URL + "/img/imageedit_9_4031107841.png"}
               alt="logo"
-              style={{ height: "30vh" }}
+              style={{ width: "30vh" }}
             />
+            <h1>in Eulgem</h1>
           </div>
         </div>
       </Parallax>
@@ -60,7 +59,6 @@ function App() {
       >
         <div style={{ height: 800 }}>
           <div style={inlineStyle}>
-           
           </div>
         </div>
       </Parallax>
