@@ -60,3 +60,9 @@ img{
     width: 80vw; 
   }
 }
+
+.footer{
+  height: 15vh; 
+  display: flex;
+  justify-content: space-evenly;
+}
