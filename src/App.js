@@ -89,21 +89,7 @@ function App() {
         </div>
       </Parallax>
       <div className="inbetween">
-        <div className="box1">
-          <p>
-            {" "}
-            Übernachtungen sind in der angeschlossenen Pension (3 Doppelzimmer)
-            möglich. Zudem gibt es eine separate Ferienwohnung.{" "}
-          </p>
-          <p>
-            Unsere Lage bietet die ideale Basis für einen erholsamen Urlaub oder
-            Wochenende mit schönen Wandermöglichkeiten. Zur Moselregion sind es
-            nur 16 km. Laacher See, Nürburgring, Burg Eltz, Trier, Koblenz und
-            die Maarregion sind schnell mit dem Auto zu erreichen!{" "}
-          </p>
-          <p>Wir freuen uns Sie bei uns begrüßen zu dürfen.</p>
-        </div>
-        <div className="box2">
+      <div className="box2">
           <div>
             <div className="imgContainer">
               <img
@@ -133,6 +119,21 @@ function App() {
             </div>
           </div>
         </div>
+        <div className="box1">
+          <p>
+            {" "}
+            Übernachtungen sind in der angeschlossenen Pension (3 Doppelzimmer)
+            möglich. Zudem gibt es eine separate Ferienwohnung.{" "}
+          </p>
+          <p>
+            Unsere Lage bietet die ideale Basis für einen erholsamen Urlaub oder
+            Wochenende mit schönen Wandermöglichkeiten. Zur Moselregion sind es
+            nur 16 km. Laacher See, Nürburgring, Burg Eltz, Trier, Koblenz und
+            die Maarregion sind schnell mit dem Auto zu erreichen!{" "}
+          </p>
+          <p>Wir freuen uns Sie bei uns begrüßen zu dürfen.</p>
+        </div>
+       
       </div>
       <Parallax
         bgImage={process.env.PUBLIC_URL + "/img/Biergarten3.png"}
@@ -154,7 +155,7 @@ function App() {
       >
         <div style={{ height: 800 }}>
           <div style={inlineStyle}>
-            <p className="bulb">Genießen Sie bei gutem Wetter Ihren Aufenthaltin unserem gemütlichen Biergarten.</p>
+            <p className="bulb">Genießen Sie bei gutem Wetter Ihren Aufenthalt in unserem gemütlichen Biergarten.</p>
           </div>
         </div>
       </Parallax>
