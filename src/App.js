@@ -131,7 +131,7 @@ function App() {
             </div>
             <div className="imgContainer">
               <img
-                src={process.env.PUBLIC_URL + "/img/FB_IMG_Schieferland.jpg"}
+                src={process.env.PUBLIC_URL + "/img/panorama-5332396_1920.jpg"}
                 alt="Schild"
               />
             </div>
@@ -156,25 +156,20 @@ function App() {
           ></div>
         )}
       >
-        <div style={{ height: 500 }}>
+        <div style={{ height: 800 }}>
           <div style={inlineStyle}>
-            Genießen Sie bei gutem Wetter Ihren Aufenthalt in unserem
-            gemütlichen Biergarten.
+            <p>Genießen Sie bei gutem Wetter Ihren Aufenthalt</p>
+            <p>in unserem gemütlichen Biergarten.</p>
           </div>
         </div>
       </Parallax>
-      <div style={{ height: "40vh" }}>Kontakt:
-Gasthaus Reichert
-Hauptstr. 4
-Eulgem
-Tel: 02653 7864
-
-
-Öffnungszeiten der Küche:
-Donnerstag bis Samstag von 17:00 Uhr bis 20:00 Uhr
-Sonntag von 11:30 Uhr bis 14:00 Uhr und von 17:00 Uhr bis 20:00 Uhr
-Das Gasthaus ist jeweils bis 23:00 Uhr geöffnet
-Montag bis Mittwoch Ruhetag</div>
+      <div style={{ height: "15vh" }}>
+        Kontakt: Gasthaus Reichert Hauptstr. 4 Eulgem Tel: 02653 7864
+        Öffnungszeiten der Küche: Donnerstag bis Samstag von 17:00 Uhr bis 20:00
+        Uhr Sonntag von 11:30 Uhr bis 14:00 Uhr und von 17:00 Uhr bis 20:00 Uhr
+        Das Gasthaus ist jeweils bis 23:00 Uhr geöffnet Montag bis Mittwoch
+        Ruhetag
+      </div>
     </div>
   );
 }
