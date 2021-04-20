@@ -18,7 +18,7 @@ function App() {
         bgImage={process.env.PUBLIC_URL + "/img/pflanzen2.png"}
         strength={-200}
       >
-        <div style={{ height: "100vh" }}>
+        <div className="pic1">
           <div style={inlineStyle}>
             {" "}
             <h1>Herzlich Willkommen in unserem</h1>
@@ -81,7 +81,7 @@ function App() {
         </div>
       </div>
       <Parallax
-        bgImage={process.env.PUBLIC_URL + "/img/Kuchen.png"}
+        bgImage={process.env.PUBLIC_URL + "/img/Kuchen3.png"}
         strength={600}
       >
         <div style={{ height: 800 }}>
@@ -90,10 +90,6 @@ function App() {
       </Parallax>
       <div className="inbetween">
         <div className="box1">
-          <p>
-            Genießen Sie bei gutem Wetter Ihren Aufenthalt in unserem
-            gemütlichen Biergarten.
-          </p>
           <p>
             {" "}
             Übernachtungen sind in der angeschlossenen Pension (3 Doppelzimmer)
@@ -158,8 +154,7 @@ function App() {
       >
         <div style={{ height: 800 }}>
           <div style={inlineStyle}>
-            <p>Genießen Sie bei gutem Wetter Ihren Aufenthalt</p>
-            <p>in unserem gemütlichen Biergarten.</p>
+            <p className="bulb">Genießen Sie bei gutem Wetter Ihren Aufenthaltin unserem gemütlichen Biergarten.</p>
           </div>
         </div>
       </Parallax>

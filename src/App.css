@@ -15,6 +15,7 @@
   justify-content: center; 
   align-items: center;
   height: 50vh;
+  flex-wrap: wrap;
 }
 
 .logo {
@@ -24,6 +25,9 @@
 p{
   font-size: 1.1rem;
   text-align: left;
+  word-wrap: break-word;
+  margin-left: 5px; 
+  margin-right: 5px;
 }
 
 h1 {
@@ -55,8 +59,27 @@ img{
   min-height: 100%;
 }
 
+.pic1{
+  height: 100vh; 
+}
+
+.bulb{
+  width: 200px; 
+}
+
 @media (max-width: 767px) {
   .logo {
+    width: 90vw; 
+  }
+
+  .inbetween {
+    height: 80vh;
+  }
+
+  .box1 {
+    width: 80vw; 
+  }
+  .box2 {
     width: 80vw; 
   }
 }
@@ -66,4 +89,5 @@ img{
   display: flex;
   justify-content: space-evenly;
   margin-bottom: 10px; 
+  flex-wrap: wrap;
 }
