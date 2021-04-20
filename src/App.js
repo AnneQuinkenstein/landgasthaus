@@ -96,7 +96,7 @@ function App() {
         
       </div>
       <Parallax
-        bgImage={process.env.PUBLIC_URL + "/img/Biergarten3.png"}
+        bgImage={process.env.PUBLIC_URL + "/img/Biergarten1.png"}
         strength={200}
         renderLayer={(precentage) => (
           <div
