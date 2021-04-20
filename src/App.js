@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="App">
       <Parallax
-        bgImage={process.env.PUBLIC_URL + "/img/pflanzen2.png"}
+        bgImage={process.env.PUBLIC_URL + "/img/panorama-5332396_1920.jpg"}
         strength={-200}
       >
         <div className="pic1">
@@ -24,7 +24,7 @@ function App() {
             <h1>Herzlich Willkommen in unserem</h1>
             <img
               className="logo"
-              src={process.env.PUBLIC_URL + "/img/imageedit_9_4031107841.png"}
+              src={process.env.PUBLIC_URL + "/img/imageedit_3_4346682995.png"}
               alt="logo"
             />
             <h1>in Eulgem</h1>
@@ -81,7 +81,7 @@ function App() {
         </div>
       </div>
       <Parallax
-        bgImage={process.env.PUBLIC_URL + "/img/Kuchen3.png"}
+        bgImage={process.env.PUBLIC_URL + "/img/Kuchen.png"}
         strength={600}
       >
         <div style={{ height: 800 }}>
