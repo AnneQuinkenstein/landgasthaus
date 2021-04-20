@@ -93,6 +93,10 @@ img{
   .box2, .box3 {
     width: 80vw; 
   }
+
+  .bulb{
+    width: 150px; 
+  }
 }
 
 .footer{
