@@ -81,15 +81,34 @@ function App() {
         </div>
       </div>
       <Parallax
-        bgImage={process.env.PUBLIC_URL + "/img/Kuchen.png"}
-        strength={600}
+        bgImage={process.env.PUBLIC_URL + "/img/Biergarten3.png"}
+        strength={200}
+        renderLayer={(precentage) => (
+          <div
+            style={{
+              position: "absolute",
+              width: "100px",
+              height: "100px",
+              borderRadius: "50%",
+              background: `rgba(255, 123, 23, ${precentage * 1})`,
+              left: "50%",
+              top: "50%",
+              transform: `translate(-50%, -50%) scale(${precentage * 5})`,
+            }}
+          ></div>
+        )}
       >
         <div style={{ height: 800 }}>
-          <div style={inlineStyle}></div>
+          <div style={inlineStyle}>
+            <p className="bulb">
+              Genießen Sie bei gutem Wetter Ihren Aufenthalt in unserem
+              gemütlichen Biergarten.
+            </p>
+          </div>
         </div>
       </Parallax>
       <div className="inbetween">
-      <div className="box2">
+        <div className="box2">
           <div>
             <div className="imgContainer">
               <img
@@ -113,7 +132,7 @@ function App() {
             </div>
             <div className="imgContainer">
               <img
-                src={process.env.PUBLIC_URL + "/img/panorama-5332396_1920.jpg"}
+                src={process.env.PUBLIC_URL + "/img/Kuchen.png"}
                 alt="Schild"
               />
             </div>
@@ -133,30 +152,13 @@ function App() {
           </p>
           <p>Wir freuen uns Sie bei uns begrüßen zu dürfen.</p>
         </div>
-       
       </div>
       <Parallax
-        bgImage={process.env.PUBLIC_URL + "/img/Biergarten3.png"}
-        strength={200}
-        renderLayer={(precentage) => (
-          <div
-            style={{
-              position: "absolute",
-              width: "100px",
-              height: "100px",
-              borderRadius: "50%",
-              background: `rgba(255, 123, 23, ${precentage * 1})`,
-              left: "50%",
-              top: "50%",
-              transform: `translate(-50%, -50%) scale(${precentage * 5})`,
-            }}
-          ></div>
-        )}
+        bgImage={process.env.PUBLIC_URL + "/img/pflanzen.png"}
+        strength={600}
       >
         <div style={{ height: 800 }}>
-          <div style={inlineStyle}>
-            <p className="bulb">Genießen Sie bei gutem Wetter Ihren Aufenthalt in unserem gemütlichen Biergarten.</p>
-          </div>
+          <div style={inlineStyle}></div>
         </div>
       </Parallax>
       <div className="footer">
@@ -177,8 +179,8 @@ function App() {
             Sonntag von 11:30 Uhr bis 14:00 Uhr und von 17:00 Uhr bis 20:00 Uhr
           </p>
           <p>
-            Das Gasthaus ist jeweils bis 23:00 Uhr geöffnet<br /> Montag bis Mittwoch
-            Ruhetag{" "}
+            Das Gasthaus ist jeweils bis 23:00 Uhr geöffnet
+            <br /> Montag bis Mittwoch Ruhetag{" "}
           </p>
         </div>
       </div>
