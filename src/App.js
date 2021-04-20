@@ -164,22 +164,24 @@ function App() {
         </div>
       </Parallax>
       <div className="footer">
-        <div>
-          <p>Kontakt: </p>
-          <p>Gasthaus Reichert </p>
-          <p> Hauptstr. 4 </p>
-          <p>Eulgem </p>
+        <div className="contact">
+          <h4>Kontakt: </h4>
+          <p>
+            {" "}
+            Gasthaus Reichert <br /> Hauptstr. 4 <br /> Eulgem{" "}
+          </p>
           <p> Tel: 02653 7864</p>
         </div>
         <div>
-          <p>Öffnungszeiten der Küche:</p>
-          <p> Donnerstag bis Samstag von 17:00 Uhr bis 20:00 Uhr </p>
+          <h4>Öffnungszeiten der Küche:</h4>
           <p>
             {" "}
+            Donnerstag bis Samstag von 17:00 Uhr bis 20:00 Uhr
+            <br />
             Sonntag von 11:30 Uhr bis 14:00 Uhr und von 17:00 Uhr bis 20:00 Uhr
           </p>
           <p>
-            Das Gasthaus ist jeweils bis 23:00 Uhr geöffnet Montag bis Mittwoch
+            Das Gasthaus ist jeweils bis 23:00 Uhr geöffnet<br /> Montag bis Mittwoch
             Ruhetag{" "}
           </p>
         </div>

@@ -62,7 +62,8 @@ img{
 }
 
 .footer{
-  height: 15vh; 
+  height: min-content; 
   display: flex;
   justify-content: space-evenly;
+  margin-bottom: 10px; 
 }
