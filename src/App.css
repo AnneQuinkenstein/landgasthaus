@@ -10,7 +10,19 @@
   transform: "translate(-50%, -50%)";
 }
 
-.inbetween{
+.inbetween {
   display: flex;
-  height: 50vh; 
+  height: 50vh;
+}
+
+.logo {
+  width: 50vw; 
+}
+
+@media (max-width: 480px) {
+
+  .logo {
+    width: 80vw; 
+  }
+
 }

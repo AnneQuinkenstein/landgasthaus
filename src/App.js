@@ -18,14 +18,13 @@ function App() {
         bgImage={process.env.PUBLIC_URL + "/img/pflanzen2.png"}
         strength={-200}
       >
-        <div style={{ height: "100vh" }}>
+        <div style={{ height: "100vh", width: "90vw" }}>
         <div style={inlineStyle}>
             {" "}
             <h1>Herzlich Willkommen in unserem</h1>
-            <img
+            <img classname="logo"
               src={process.env.PUBLIC_URL + "/img/imageedit_9_4031107841.png"}
               alt="logo"
-              style={{ width: "30vh" }}
             />
             <h1>in Eulgem</h1>
           </div>
