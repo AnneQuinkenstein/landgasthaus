@@ -48,7 +48,7 @@ function App() {
             Personen möglich. Sehr gerne bieten wir in Absprache mit Ihnen auch
             ein Menüfolge an.
           </p>
-          <div>
+          <div className="oeffnungszeiten">
             <h4>Öffnungszeiten der Küche:</h4>
             <p>
               {" "}
@@ -93,6 +93,7 @@ function App() {
             </div>
           </div>
         </div>
+        
       </div>
       <Parallax
         bgImage={process.env.PUBLIC_URL + "/img/Biergarten3.png"}
@@ -122,14 +123,14 @@ function App() {
         </div>
       </Parallax>
       <div className="inbetween">
-      <div className="contact">
-        <h4>Kontakt: </h4>
-        <p>
-          {" "}
-          Gasthaus Reichert <br /> Hauptstr. 4 <br /> Eulgem{" "}
-        </p>
-        <p> Tel: 02653 7864</p>
-      </div>
+        <div className="contact">
+          <h4>Kontakt: </h4>
+          <p>
+            {" "}
+            Gasthaus Reichert <br /> Hauptstr. 4 <br /> Eulgem{" "}
+          </p>
+          <p> Tel: 02653 7864</p>
+        </div>
         <div className="box2">
           <div>
             <div className="imgContainer">
@@ -160,7 +161,7 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="box1">
+        <div className="box3">
           <p>
             {" "}
             Übernachtungen sind in der angeschlossenen Pension (3 Doppelzimmer)
@@ -176,7 +177,7 @@ function App() {
         </div>
       </div>
       <Parallax
-        bgImage={process.env.PUBLIC_URL + "/img/pflanzen.png"}
+        bgImage={process.env.PUBLIC_URL + "/img/20210419_175854.jpg"}
         strength={600}
       >
         <div style={{ height: 800 }}>

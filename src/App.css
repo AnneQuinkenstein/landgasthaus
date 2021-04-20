@@ -14,7 +14,7 @@
   display: flex;
   justify-content: center; 
   align-items: center;
-  height: 50vh;
+  height: 55vh;
   flex-wrap: wrap;
 }
 
@@ -23,11 +23,12 @@
 }
 
 p{
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   text-align: left;
   word-wrap: break-word;
   margin-left: 5px; 
   margin-right: 5px;
+  font-weight: 500;
 }
 
 h1 {
@@ -37,8 +38,9 @@ h1 {
 }
 
 .box1 {
-  width: 40vw; 
+  width: 50vw; 
 }
+
 .box2 {
   width: 40vw; 
   display: flex;
@@ -46,14 +48,22 @@ h1 {
   align-items: center;  
 }
 
+.box3 {
+  width: 40vw; 
+}
+
+.oeffnungszeiten{
+  padding-left: 10px; 
+}
+
 .imgContainer{
   display: flex;
   justify-content: center; 
   align-items: center;
   overflow: hidden;
-  width: 150px; 
-  height: 150px; 
-  margin: 5px; 
+  width: 200px; 
+  height: 200px; 
+  margin: 10px; 
 }
 img{
   min-width: 100%;
@@ -68,7 +78,7 @@ img{
   width: 200px; 
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1000px) {
   .logo {
     width: 90vw; 
   }
@@ -80,7 +90,7 @@ img{
   .box1 {
     width: 80vw; 
   }
-  .box2 {
+  .box2, .box3 {
     width: 80vw; 
   }
 }
