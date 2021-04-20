@@ -12,6 +12,8 @@
 
 .inbetween {
   display: flex;
+  justify-content: center; 
+  align-items: center;
   height: 50vh;
 }
 
@@ -19,10 +21,37 @@
   width: 50vw; 
 }
 
-@media (max-width: 480px) {
+h1 {
+  font-style: italic;
+  font-weight:bolder; 
+}
 
+.box1 {
+  width: 40vw; 
+}
+.box2 {
+  width: 40vw; 
+  display: flex;
+  justify-content: center; 
+  align-items: center;  
+}
+
+.imgContainer{
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  overflow: hidden;
+  height: 200px; 
+  width: 200px; 
+  margin: 5px; 
+}
+img{
+  min-width: 100%;
+  min-height: 100%;
+}
+
+@media (max-width: 767px) {
   .logo {
     width: 80vw; 
   }
-
 }
